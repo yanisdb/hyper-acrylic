@@ -1,16 +1,6 @@
-var electronVibrancy = require("electron-vibrancy");
+const { setVibrancy } = require("electron-acrylic-window");
 
-const CONFIG_KEY = "hyperAcrylic";
-const DEFAULT_ALPHA = 0.8;
-
-let config;
-
-exports.onWindow = (window) => {
-  electronVibrancy.SetVibrancy(
-    true,
-    browserWindowInstance.getNativeWindowHandle()
-  );
-  electronVibrancy.SetVibrancy(window, 0);
+module.exports.onWindow = (browserWindow) => {
+    const handle = new Uint32Array(browserWindow.getNativeWindowHandle().buffer)[0]
+    require("child_process").spawn(`${__dirname}\\Acrylic.exe`,  [handle, 1]);
 }
-
-export function enableVribancy() {}

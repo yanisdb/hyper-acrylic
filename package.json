@@ -4,7 +4,7 @@
   "description": "Acrylic transparency for Hyper on Windows 10",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yanisdb/acrylic.git"
+    "url": "git+https://github.com/yanisdb/hyper-acrylic.git"
   },
   "keywords": [
     "hyper",

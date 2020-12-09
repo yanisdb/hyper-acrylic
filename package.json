@@ -1,5 +1,5 @@
 {
-  "name": "acrylic",
+  "name": "hyper-acrylic",
   "version": "1.0.0",
   "description": "Acrylic transparency for Hyper on Windows 10",
   "repository": {
@@ -9,6 +9,7 @@
   "keywords": [
     "hyper",
     "hyperterm",
+    "hyper-plugin",
     "design",
     "clean",
     "transparent",

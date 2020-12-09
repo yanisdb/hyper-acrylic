@@ -1,11 +1,10 @@
 {
   "name": "acrylic",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Acrylic transparency for Hyper on Windows 10",
-  "main": "index.js",
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/yanisdb/acrylic.git"
   },
   "keywords": [
     "hyper",
@@ -13,11 +12,9 @@
     "design",
     "clean",
     "transparent",
+    "acrylic",
+    "windows 10",
     "vibrancy"
   ],
-  "author": "De Busschere Yanis",
-  "homepage": "",
-  "dependencies": {
-    "electron-vibrancy": "0.1.13"
-  }
+  "author": "De Busschere Yanis"
 }

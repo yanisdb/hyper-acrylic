@@ -10,6 +10,13 @@ Install [Hyper](https://hyper.is) and add `hyper-acrylic` to plugins in `.hyper.
 
 Choose the color by settings the `backgroundColor` to a color with alpha value between 0 and 1, both excluded.
 
-## License
+## Contributions
 
-MIT
+Any contributions is welcomed, I will glady incorporate any pull request.
+Some possible improvment we could work on are:
+ * Improving the acrylic effect (with the undocumented API setWindowCompositionAttribute())
+ * Make the C++ code compile with node-gyp rather than compiling it and uploading it
+ * Add a setting/shortcut to toggle it on and off rather than disabling the extension
+ 
+## License
+ MIT

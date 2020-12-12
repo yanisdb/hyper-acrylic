@@ -17,5 +17,11 @@
     "windows 10",
     "vibrancy"
   ],
-  "author": "De Busschere Yanis"
+  "author": "De Busschere Yanis",
+  "bugs": {
+    "url": "https://github.com/yanisdb/hyper-acrylic/issues"
+  },
+  "homepage": "https://github.com/yanisdb/hyper-acrylic#readme",
+  "main": "index.js",
+  "license": "MIT"
 }
